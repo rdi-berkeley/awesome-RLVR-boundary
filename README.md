@@ -175,8 +175,11 @@ From these results emerges a critical challenge: how to find progress where base
   </details>
 
 - **[[arXiv:2510.15990]](https://www.arxiv.org/abs/2510.15990) Can GRPO Help LLMs Transcend Their Pretraining Origin?**
+
   Tags: ![Skepticism](https://img.shields.io/badge/Skepticism-%20-D32F2F?style=flat-square)
+
   Authors: Kangqi Ni, Zhen Tan, Zijie Liu1, Pingzhi Li, Tianlong Chen 
+
   <details>
     <summary>Abstract</summary>
     Reinforcement Learning with Verifiable Rewards (RLVR), primarily driven by the Group Relative Policy Optimization (GRPO) algorithm, is a leading approach for enhancing the reasoning abilities of Large Language Models (LLMs). Despite its wide adoption, GRPO’s gains are often inconsistent; for instance, a model may show significant improvement in one reasoning domain, like mathematics, yet remain stagnant in another, such as medicine. This inconsistency raises a critical question: under what conditions does GRPO improve reasoning and generalize out-of-distribution (OOD)? We investigate this from a data distribution perspective. We first prove theoretically that GRPO is a conservative reweighting scheme, bounded by the base model’s distribution and thus unable to discover completely novel solutions. We further validate this in carefully designed controlled studies by training transformers from scratch, evaluating generalization across reasoning depth, input length, token representation, and compositionality. Our results provide a principled explanation for GRPO’s boundaries: OOD improvement emerges only when the target task aligns with the model’s pretrained biases, while gains on in-distribution (ID) tasks diminish as performance saturates. This reframes GRPO not as a universal reasoning enhancer but as a tool that sharpens pretraining biases. Our findings motivate future development of algorithms that can expand a model’s capabilities beyond its pretraining origin.
