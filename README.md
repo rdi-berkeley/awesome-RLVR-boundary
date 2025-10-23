@@ -69,6 +69,7 @@ From these results emerges a critical challenge: how to find progress where base
   </details>
 
 - **[[arXiv:2507.14843]](https://arxiv.org/abs/2507.14843) The Invisible Leash: Why RLVR May or May Not Escape Its Origin** 
+
   Authors: Fang Wu, Weihao Xuan, Ximing Lu, Mingjie Liu, Yi Dong, Zaid Harchaoui, Yejin Choi  
   Tags: ![Skepticism](https://img.shields.io/badge/Skepticism-%20-D32F2F?style=flat-square)  
   <details>
